@@ -10,7 +10,7 @@ For a more indepth explanation of the SSO implementation, please [read this arti
 
 Install this library through composer
 
-    composer require sal/sso
+    composer require smoothbytes/sso
 
 ## Usage
 
