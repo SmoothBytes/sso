@@ -3,7 +3,7 @@
     "description": "Social&Loyal Simple Single Sign-On",
     "keywords": ["sso", "auth"],
     "license": "MIT",
-    "homepage": "https://github.com/SmoothBytes/sso-client",
+    "homepage": "https://github.com/SmoothBytes/sso",
     "authors": [
         {
             "name": "Gamaliel Toro",
@@ -11,8 +11,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/SmoothBytes/sso-client/issues",
-        "source": "https://github.com/SmoothBytes/sso-client"
+        "issues": "https://github.com/SmoothBytes/sso/issues",
+        "source": "https://github.com/SmoothBytes/sso"
     },
     "require": {
         "php": ">=5.5.0",

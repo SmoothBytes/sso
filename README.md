@@ -34,28 +34,8 @@ $user = $broker->getUserInfo();
 echo json_encode($user);
 ```
 
-For more information, checkout the `broker` and `ajax-broker` example.
+For more information, checkout the `broker` and `ajax-broker` examples in [sso-examples](https://github.com/SmoothBytes/sso-examples).
 
-## Examples
-
-There is two example brokers. One with normal redirects and one using
-[JSONP](https://en.wikipedia.org/wiki/JSONP) / AJAX.
-
-To proof it's working you should setup the server and two or more brokers, each on their own machine and their own
-(sub)domain. However you can also run both server and brokers on your own machine, simply to test it out.
-
-On *nix (Linux / Unix / OSX) run:
-
-    $ export SSO_SERVER=https://yourclub.socialandloyal.com
-    $ export SSO_BROKER_ID={id in your club config}
-    $ export SSO_BROKER_SECRET={secret in your club config}
-    
-    $ php -S localhost:9001 -t examples/broker/
-    $ php -S localhost:9002 -t examples/ajax-broker/
-
-Now open some tabs and visit http://localhost:9001, http://localhost:9002.
-
-_Note that after logging in, you need to refresh on the other brokers to see the effect._
 
 ##Notes
 
