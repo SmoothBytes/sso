@@ -27,7 +27,7 @@ to the client's session. If the client is already attached, the function will si
 When the session is attached you can do actions as login/logout or get the user's info.
 
 ```php
-$broker = new Jasny\SSO\Broker($serverUrl, $brokerId, $brokerSecret);
+$broker = new Sal\SSO\Broker($serverUrl, $brokerId, $brokerSecret);
 $broker->attach();
 
 $user = $broker->getUserInfo();
