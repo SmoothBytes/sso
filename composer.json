@@ -17,10 +17,5 @@
     "require": {
         "php": ">=5.5.0",
         "monolog/monolog": "^1.23"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sal\\SSO\\": "src/"
-        }
     }
 }
